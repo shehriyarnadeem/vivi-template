@@ -1,0 +1,35 @@
+{
+    "name": "vivi",
+    "version": "1.5.0",
+    "description": "Vivi - React Next.js Video Production & Movie Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "export": "next export",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "next": "^12.0.4",
+        "next-redux-wrapper": "^6.0.2",
+        "nodemailer": "^6.7.1",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^17.0.2",
+        "react-accessible-accordion": "^3.3.5",
+        "react-dom": "^17.0.2",
+        "react-modal-video": "^1.2.8",
+        "react-owl-carousel3": "^2.2.5",
+        "react-redux": "^7.2.6",
+        "react-select": "^3.2.0",
+        "react-toastify": "^6.2.0",
+        "redux": "^4.1.2",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-thunk": "^2.4.0",
+        "sass": "^1.43.4",
+        "sweetalert2": "^11.2.0",
+        "sweetalert2-react-content": "^4.2.0"
+    }
+}
