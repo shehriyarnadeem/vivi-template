@@ -73,7 +73,7 @@ const ContactForm = () => {
 								<li>
 									<i className="flaticon-pin"></i>
 									Address:
-									<span>Karachi, D.H.A Phase 2 Seher commercial<br /> Karachi, Pakistan</span>
+									<span>14-c, Mazeline floor, Seher Commercial Lane 8, Phase 7, D.H.A<br /> karachi, Pakistan</span>
 								</li>
 							</ul>
 

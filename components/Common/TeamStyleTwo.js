@@ -14,24 +14,6 @@ const TeamStyleTwo = () => {
 						<div className="single-team">
 							<div className="team-img">
 								<img src="/img/team/team1.jpeg" alt="Image" />
-	
-								<ul className="social">
-									<li>
-										<a href="#" target="_blank">
-											<i className="bx bxl-twitter"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" target="_blank">
-											<i className="bx bxl-instagram"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" target="_blank">
-											<i className="bx bxl-facebook"></i>
-										</a>
-									</li>
-								</ul>
 							</div>
 							
 							<div className="team-content">
@@ -45,24 +27,6 @@ const TeamStyleTwo = () => {
 						<div className="single-team">
 							<div className="team-img">
 								<img src="/img/team/team2.jpg" alt="Image" />
-	
-								<ul className="social">
-									<li>
-										<a href="#" target="_blank">
-											<i className="bx bxl-twitter"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" target="_blank">
-											<i className="bx bxl-instagram"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" target="_blank">
-											<i className="bx bxl-facebook"></i>
-										</a>
-									</li>
-								</ul>
 							</div>
 	
 							<div className="team-content">

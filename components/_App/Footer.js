@@ -59,7 +59,7 @@ const Footer = () => {
                                 <ul className="address">
                                     <li>
                                         <i className="flaticon-pin"></i>
-                                        Karachi, D.H.A Phase 2 Seher commercial, near Burger shack
+                                        14-c, Mazeline floor, Seher Commercial Lane 8, Phase 7, D.H.A, karachi, Pakistan
                                     </li>
                                     <li>
                                         <i className="flaticon-email-1"></i>

@@ -18,7 +18,7 @@ const Contact = () => {
                 imgClass="bg-2" 
             />    
 
-            <GoogleMap />
+            {/* <GoogleMap /> */}
 
             <ContactForm />
             
