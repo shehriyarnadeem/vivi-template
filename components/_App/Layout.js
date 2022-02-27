@@ -7,11 +7,11 @@ const Layout = ({ children }) => {
     return(
         <>
             <Head>
-                <title>Vivi - React Next.js Video Production & Movie Template</title>
+                <title>Mad Ox - Film Production Company</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta 
                     name="description" 
-                    content="Vivi - React Next.js Video Production & Movie Template"
+                    content="Mad Ox - Film and Video Production"
                  />
                 <meta 
                     name="og:title" 
@@ -20,16 +20,16 @@ const Layout = ({ children }) => {
                 ></meta>
                 <meta 
                     name="twitter:card" 
-                    content="Vivi - React Next.js Video Production & Movie Template"
+                    content="Mad Ox - Film Production Company"
                 ></meta>
                 <link 
                     rel="canonical" 
-                    href="https://vivi-react.envytheme.com/"
+                    href="https://madoxproductions.comm"
                 ></link>
-                <meta 
+                {/* <meta 
                     property="og:image" 
                     content="https://res.cloudinary.com/dev-empty/image/upload/v1595838139/vivi/about-img-two.jpg" 
-                />
+                /> */}
             </Head>
 
             {children}

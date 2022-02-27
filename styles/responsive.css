@@ -1737,6 +1737,9 @@
   .hero-slider-text h1 {
     font-size: 60px;
   }
+  .hero-slider-text h2 {
+    color:white
+  }
   .video-created-wrap h2 {
     right: 0;
   }

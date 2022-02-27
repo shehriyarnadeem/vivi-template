@@ -11,6 +11,7 @@ import GetInTouch from '../components/Common/GetInTouch'
 import UpcomingMovies from '../components/DefaultHome/UpcomingMovies'
 import ExclusiveShop from '../components/DefaultHome/ExclusiveShop'
 import TeamStyleOne from '../components/Common/TeamStyleOne'
+import TeamStyleTwo from '../components/Common/TeamStyleTwo'
 import LatestNews from '../components/DefaultHome/LatestNews'
 import Partners from '../components/Common/Partners'
 import Footer from '../components/_App/Footer'
@@ -23,27 +24,27 @@ const Index = () => {
 
             <HeroSlider />
 
-            <About />
+            {/* <About /> */}
 
-            <VideoCreated />
+            {/* <VideoCreated /> */}
 
             <WhatWeDo />
 
-            <Testimonials />
+            {/* <Testimonials /> */}
 
-            <AwardWinningMovies />
+            {/* <AwardWinningMovies /> */}
 
-            <GetInTouch />
+            {/* <GetInTouch />
 
-            <UpcomingMovies />
+            <UpcomingMovies /> */}
 
-            <ExclusiveShop products={products.slice(0, 4)} />
+            {/* <ExclusiveShop products={products.slice(0, 4)} /> */}
 
-            <TeamStyleOne />
+            <TeamStyleTwo />
 
-            <Partners />
+            {/* <Partners /> */}
 
-            <LatestNews /> 
+            {/* <LatestNews />  */}
             
             <Footer />
         </>

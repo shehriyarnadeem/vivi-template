@@ -57,23 +57,23 @@ const ContactForm = () => {
 					<div className="col-lg-4 col-md-5">
 						<div className="contact-info">
 							<h3>Get In Touch</h3>
-							<p>Mon-Sat: 8:00am – 8:00pm</p>
+							<p>Always Open</p>
 
 							<ul>
 								<li>
 									<i className="flaticon-phone-call"></i>
 									Phone:
-									<a href="tel:15877854578">+1 587 785 4578</a>
+									<a href="tel:92331 2420290">+92 331 2420290</a>
 								</li>
 								<li>
 									<i className="flaticon-email-1"></i>
 									Email:
-									<a href="mailto:hello@vivi.com">hello@vivi.com</a>
+									<a href="mailto:info@madoxproduction.com">info@madoxproduction.com</a>
 								</li>
 								<li>
 									<i className="flaticon-pin"></i>
 									Address:
-									<span>6890 Blvd, The Bronx, NY 1058 <br /> New York, USA</span>
+									<span>Karachi, D.H.A Phase 2 Seher commercial<br /> Karachi, Pakistan</span>
 								</li>
 							</ul>
 
@@ -82,22 +82,17 @@ const ContactForm = () => {
 									Follow Us
 								</li>
 								<li>
-									<a href="https://twitter.com/" target="_blank">
-										<i className="bx bxl-twitter"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://www.instagram.com/" target="_blank">
+									<a href="https://www.instagram.com/madoxproductions/" target="_blank">
 										<i className="bx bxl-instagram"></i>
 									</a>
 								</li>
 								<li>
-									<a href="https://www.facebook.com/" target="_blank">
+									<a href="https://www.facebook.com/madoxproductions" target="_blank">
 										<i className="bx bxl-facebook"></i>
 									</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/" target="_blank">
+									<a href="https://www.youtube.com/channel/UCFdsGxVtQP-zX0JV_R4iFMg" target="_blank">
 										<i className="bx bxl-youtube"></i>
 									</a>
 								</li>
@@ -109,7 +104,7 @@ const ContactForm = () => {
 						<div className="contact-wrap">
 							<h3>Write Us</h3>
  
-							<form onSubmit={handleSubmit} id="contactForm">
+							<form action="mailto:info@madoxproductions.com" id="contactForm" method="post" encType="text/plain">
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">

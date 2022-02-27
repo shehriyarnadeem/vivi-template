@@ -28,30 +28,30 @@ const HeroSlider = () => {
 
     return (
         <div className="hero-slider-area">
-            {display ? <OwlCarousel 
+            {/* {display ? <OwlCarousel 
                 className="hero-slider-wrap owl-carousel owl-theme"
                 {...options}
-            >
+            > */}
 				<div className="hero-slider-item bg-1">
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
 								<div className="hero-slider-text one">
-									<h1>We Make A Awesome Branded Videos</h1>
-									<p>Vivi is a high-quality video production house!</p>
+									<h2>Working in this industry made us strong.<br/> We were told to be stronger.<br/> But we came out to be strongest.</h2>
+									<p>-Mad Ox</p>
                                      
-                                    <div className="slider-btn">
+                                    {/* <div className="slider-btn">
                                         <Link href="#">
                                             <a className="default-btn">View More</a>
                                         </Link>
-                                    </div>
+                                    </div> */}
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div className="hero-slider-item bg-2">
+				{/* <div className="hero-slider-item bg-2">
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
@@ -68,9 +68,9 @@ const HeroSlider = () => {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
-				<div className="hero-slider-item bg-3">
+				{/* <div className="hero-slider-item bg-3">
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
@@ -87,8 +87,8 @@ const HeroSlider = () => {
 							</div>
 						</div>
 					</div>
-				</div>
-            </OwlCarousel> : ''}
+				</div> */}
+            {/* </OwlCarousel> : ''} */}
 
 			{/* Social Wrap */}
 			<div className="social-wrap">
@@ -97,22 +97,17 @@ const HeroSlider = () => {
 						Follow Us:
 					</li>
 					<li>
-						<a href="#" target="_blank">
-							<i className="bx bxl-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank">
+						<a href="https://www.instagram.com/madoxproductions/" target="_blank">
 							<i className="bx bxl-instagram"></i>
 						</a>
 					</li>
 					<li>
-						<a href="#" target="_blank">
+						<a href="https://www.facebook.com/madoxproductions" target="_blank">
 							<i className="bx bxl-facebook"></i>
 						</a>
 					</li>
 					<li>
-						<a href="#" target="_blank">
+						<a href="https://www.youtube.com/channel/UCFdsGxVtQP-zX0JV_R4iFMg" target="_blank">
 							<i className="bx bxl-youtube"></i>
 						</a>
 					</li>

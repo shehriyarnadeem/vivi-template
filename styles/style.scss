@@ -649,6 +649,9 @@ Hero Slider Area Style
 					h1 {
 						animation: 1s .1s fadeInUpBig both;
 					}
+					h2 {
+						animation: 1s .1s fadeInUpBig both;
+					}
 					p {
 						animation: 2s .2s fadeInUpBig both;
 					}
@@ -860,6 +863,11 @@ Hero Slider Area Style
     margin: 70px auto 0;
 	h1 {
 		font-size: 80px;
+		color: $white-color;
+		margin-bottom: 20px;
+	}
+	h2 {
+		font-size: 40px;
 		color: $white-color;
 		margin-bottom: 20px;
 	}

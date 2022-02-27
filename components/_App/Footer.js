@@ -12,11 +12,11 @@ const Footer = () => {
                             <div className="single-widget">
                                 <div className="logo">
                                     <Link href="/">
-                                        <a><img src="/img/white-logo.png" alt="Image" /></a>
+                                        <a><img src="/img/whitelogo.png" alt="Image" style={{height:'10em'}} /></a>
                                     </Link>
                                 </div>
                                 
-                                <div className="newsletter-wrap">
+                                {/* <div className="newsletter-wrap">
                                     <h3>Subscribe Newsletter</h3>
                                     <form className="newsletter-form">
                                         <input type="email" className="form-control" placeholder="Enter email address" name="email" required />
@@ -25,7 +25,7 @@ const Footer = () => {
                                             <i className="bx bx-right-arrow-alt"></i>
                                         </button>
                                     </form>
-                                </div>
+                                </div> */}
 
                                 <ul className="social-wrap">
                                     <li>
@@ -59,32 +59,32 @@ const Footer = () => {
                                 <ul className="address">
                                     <li>
                                         <i className="flaticon-pin"></i>
-                                        6890 Blvd, The Bronx, NY 1058 New York, USA
+                                        Karachi, D.H.A Phase 2 Seher commercial, near Burger shack
                                     </li>
                                     <li>
                                         <i className="flaticon-email-1"></i>
-                                        <a href="mailto:hello@vivi.com">
-                                            hello@vivi.com
+                                        <a href="mailto:info@madoxproductions.com">
+                                            info@madoxproductions.com
                                         </a>
 
-                                        <a href="#">
+                                        {/* <a href="#">
                                             Skype: example
-                                        </a>
+                                        </a> */}
                                     </li>
                                     <li>
                                         <i className="flaticon-phone-call"></i>
                                         <a href="tel:+1-587-785-4578">
-                                            +1 587 785 4578
+                                            +92 331 2420290
                                         </a>
                                         <a href="tel:+1-485-456-0102">
-                                            +1 485 456 0102
+                                            +92 336 0825510
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="single-widget">
                                 <h3>Additional Links</h3>
 
@@ -116,9 +116,9 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="single-widget">
                                 <h3>Instagram</h3>
 
@@ -155,7 +155,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </footer>
@@ -163,7 +163,7 @@ const Footer = () => {
             <footer className="footer-bottom-area">
                 <div className="container">
                     <div className="copyright-wrap">
-                        <p>Copyright @{currentYear} Vivi. Designed By <a href="https://envytheme.com/" target="blank">EnvyTheme</a></p>
+                        <p>Copyright @{currentYear} Mad Ox. Designed By <a href="https://shehriyarnadeem.dev" target="blank">Shehriyar Nadeem</a></p>
                     </div>
                 </div>
             </footer>

@@ -974,6 +974,11 @@ Hero Slider Area Style
   color: #ffffff;
   margin-bottom: 20px;
 }
+.hero-slider-text h2 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
 
 .hero-slider-text p {
   color: #ffffff;
@@ -5485,7 +5490,7 @@ Portfolio Area Style
   position: relative;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  height: 380px;
+  height: 329px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
