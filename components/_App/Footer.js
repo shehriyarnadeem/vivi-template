@@ -28,23 +28,19 @@ const Footer = () => {
                                 </div> */}
 
                                 <ul className="social-wrap">
+
                                     <li>
-                                        <a href="https://twitter.com/" target="_blank">
-                                            <i className="bx bxl-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
+                                        <a href="https://www.instagram.com/madoxproductions/" target="_blank">
                                             <i className="bx bxl-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
+                                        <a href="https://www.facebook.com/madoxproductions" target="_blank">
                                             <i className="bx bxl-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/" target="_blank">
+                                        <a href="https://www.youtube.com/channel/UCFdsGxVtQP-zX0JV_R4iFMg" target="_blank">
                                             <i className="bx bxl-youtube"></i>
                                         </a>
                                     </li>
