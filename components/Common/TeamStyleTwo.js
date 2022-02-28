@@ -17,7 +17,7 @@ const TeamStyleTwo = () => {
 							</div>
 							
 							<div className="team-content">
-								<h3>Rahul Kalyana</h3>
+								<h3>Rahul Aslam</h3>
 								<span>CEO</span>
 							</div>
 						</div>
@@ -30,8 +30,8 @@ const TeamStyleTwo = () => {
 							</div>
 	
 							<div className="team-content">
-								<h3>Looraa Smith</h3>
-								<span>Line Maker</span>
+								<h3>Ahmed Shahid</h3>
+								<span>COO (Non-Essential Employee) </span>
 							</div>
 						</div>
 					</div>

@@ -55,7 +55,7 @@ const Footer = () => {
                                 <ul className="address">
                                     <li>
                                         <i className="flaticon-pin"></i>
-                                        14-c, Mazeline floor, Seher Commercial Lane 8, Phase 7, D.H.A, karachi, Pakistan
+                                        14/c, Lane 8, Khe-e-Seher Commercial, Phase 7, Karachi, Pakistan
                                     </li>
                                     <li>
                                         <i className="flaticon-email-1"></i>
@@ -69,11 +69,11 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <i className="flaticon-phone-call"></i>
-                                        <a href="tel:+1-587-785-4578">
-                                            +92 331 2420290
+                                        <a href="tel:021-33380449">
+                                           021-33380449
                                         </a>
-                                        <a href="tel:+1-485-456-0102">
-                                            +92 336 0825510
+                                        <a href="tel:0300-1305269">
+                                             0300-1305269
                                         </a>
                                     </li>
                                 </ul>

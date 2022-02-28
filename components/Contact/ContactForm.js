@@ -63,7 +63,12 @@ const ContactForm = () => {
 								<li>
 									<i className="flaticon-phone-call"></i>
 									Phone:
-									<a href="tel:92331 2420290">+92 331 2420290</a>
+									<a href="tel:+922133380449">021-33380449</a>
+								</li>
+                                <li>
+									<i className="flaticon-phone-call"></i>
+									Mobile:
+									<a href="tel:03001305269">0300-1305269</a>
 								</li>
 								<li>
 									<i className="flaticon-email-1"></i>
@@ -73,7 +78,7 @@ const ContactForm = () => {
 								<li>
 									<i className="flaticon-pin"></i>
 									Address:
-									<span>14-c, Mazeline floor, Seher Commercial Lane 8, Phase 7, D.H.A<br /> karachi, Pakistan</span>
+									<span>14/c, Lane 8, Khe-e-Seher Commercial, Phase 7<br /> Karachi, Pakistan</span>
 								</li>
 							</ul>
 
