@@ -57,7 +57,7 @@ const ContactForm = () => {
 					<div className="col-lg-4 col-md-5">
 						<div className="contact-info">
 							<h3>Get In Touch</h3>
-							<p>Always Open</p>
+							<p>Monday - Saturday</p>
 
 							<ul>
 								<li>
