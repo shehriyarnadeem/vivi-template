@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
                 <meta 
                     name="og:title" 
                     property="og:title" 
-                    content="Vivi - React Next.js Video Production & Movie Template"
+                    content="Mad ox - Video and Film Production House"
                 ></meta>
                 <meta 
                     name="twitter:card" 

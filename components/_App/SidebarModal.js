@@ -30,7 +30,7 @@ const SidebarModal = () => {
 
                 <div className="sidebar-about">
                     <div className="title">
-                        <p>Vivi is a high quality video production house. We make a awesome branded videos. It is the analogical of film making, but the images are digitally recorded instead of film stock.</p>
+                        <p>Mad Ox is a high quality video production house. We make a awesome branded videos. It is the analogical of film making, but the images are digitally recorded instead of film stock.</p>
                     </div>
                 </div>
 
@@ -40,24 +40,23 @@ const SidebarModal = () => {
                     <ul>
 						<li>
 							<i className="flaticon-pin"></i>
-							6890 Blvd, The Bronx, NY 1058 New York, USA
+							14/c, Lane 8, Khe-e-Seher Commercial, Phase 7, Karachi, Pakistan
 						</li>
 
 						<li>
 							<i className="flaticon-email-1"></i>
-							<a href="mailto:hello@vivi.com">hello@vivi.com</a>
-							<a href="#">Skype: example</a>
+							<a href="mailto:hello@vivi.com">info@madoxproductions.com</a>
 						</li>
 
 						<li>
 							<i className="flaticon-phone-call"></i>
-							<a href="tel:+1-587-785-4578">+1 587 785 4578</a>
-							<a href="tel:+1-485-456-0102">+1 485 456 0102</a>
+							<a href="tel:021-33380449">021-33380449</a>
+							<a href="tel:0300-1305269">0300-1305269</a>
 						</li>
 					</ul>
 				</div>
 				
-                <div className="sidebar-instagram-feed">
+                {/* <div className="sidebar-instagram-feed">
                     <h2>Instagram</h2>
 
                     <ul>
@@ -92,9 +91,9 @@ const SidebarModal = () => {
 							</a>
 						</li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div className="sidebar-follow-us">
+                {/* <div className="sidebar-follow-us">
 					<h2>Sidebar Follow</h2>
 
 					<ul className="social-wrap">
@@ -119,7 +118,7 @@ const SidebarModal = () => {
 							</a>
 						</li>
 					</ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )
