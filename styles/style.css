@@ -1328,6 +1328,9 @@ Testimonial Area Style
   margin: -12px auto 0;
 }
 
+.owl-stage-outer{
+  top: 3em
+}
 .testimonial-content i {
   font-size: 100px;
   color: #313939;
@@ -2058,12 +2061,14 @@ Team Area Style
   opacity: 1;
 }
 .team-picture-style {
-    height: 23em;
+    height: 25em;
     border-radius: 100%;
     border: 3px solid lightsteelblue;
     object-fit: cover;
 }
-
+.owl-stage-outer{
+  top:4em
+}
 /*
 Blog Area Style
 ======================================================*/

@@ -10,7 +10,7 @@ const options = {
     mouseDrag: false,
     items:1,
     dots: true,
-    autoplay: true,
+    // autoplay: true,
     smartSpeed:500,
     autoplayHoverPause: true,
     navText: [
@@ -29,178 +29,82 @@ const HeroSlider = () => {
     return (
         <div className="hero-slider-area">
             {display ? <OwlCarousel 
-                className="hero-slider-wrap owl-carousel owl-theme"
+                className="owl-carousel owl-theme"
                 {...options}
             >
-				<div className="hero-slider-item bg-1">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-							</div>
-						</div>
-					</div>
+				<div className="item">
+					<img src="/img/main-slider/posters/cadbury.jpg" />
 				</div>
 
-				<div className="hero-slider-item bg-2">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/Dawlance.jpg" />
 				</div>
 
-				<div className="hero-slider-item bg-3">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/glucos.jpg" />
 				</div>
 
-				<div className="hero-slider-item bg-4">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/kia.jpg" />
 				</div>
 
-				<div className="hero-slider-item bg-5">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/laaapata.jpg" />
 				</div>
 
-				<div className="hero-slider-item bg-6">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/laal.jpg" />
 				</div>
 
-				{/* <div className="hero-slider-item bg-7">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
-				</div> */}
-
-				{/* <div className="hero-slider-item bg-8">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
-				</div> */}
-				{/* <div className="hero-slider-item bg-9">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
-				</div> */}
-
-				<div className="hero-slider-item bg-10">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/Lifebuoy.jpg" />
 				</div>
 
-				<div className="hero-slider-item bg-11">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/lifebuoysanitizer.jpg" />
 				</div>
-				<div className="hero-slider-item bg-12">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/mfoam.jpg" />
 				</div>
-				<div className="hero-slider-item bg-13">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/molty.jpg" />
 				</div>
-				<div className="hero-slider-item bg-14">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/peu.jpg" />
 				</div>
-				<div className="hero-slider-item bg-15">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/PONDS.jpg" />
 				</div>
-				<div className="hero-slider-item bg-16">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/pubg.jpg" />
 				</div>
-				<div className="hero-slider-item bg-17">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/Sang-e-Mah-1280x720.jpg" />
 				</div>
-				<div className="hero-slider-item bg-18">
-					<div className="d-table">
-						<div className="d-table-cell">
-							<div className="container">
-								
-							</div>
-						</div>
-					</div>
+
+
+				<div className="item">
+				<img src="/img/main-slider/posters/Sooper.jpg" />
 				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/surf.jpg" />
+				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/surfexcel.jpg" />
+				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/vim.jpg" />
+				</div>
+				<div className="item">
+				<img src="/img/main-slider/posters/whistlez.jpg" />
+				</div>
+				
+
+				
 				
 
             </OwlCarousel> : ''}
