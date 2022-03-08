@@ -6,12 +6,12 @@ import Link from 'next/link';
 const options = {
     loop:true,
     margin:0,
-    nav:true,
+    // nav:true,
     mouseDrag: false,
     items:1,
     dots: true,
     autoplay: true,
-    smartSpeed:1500,
+    smartSpeed:500,
     autoplayHoverPause: true,
     navText: [
         "<i class='bx bx-chevron-left'></i>",
@@ -28,67 +28,182 @@ const HeroSlider = () => {
 
     return (
         <div className="hero-slider-area">
-            {/* {display ? <OwlCarousel 
+            {display ? <OwlCarousel 
                 className="hero-slider-wrap owl-carousel owl-theme"
                 {...options}
-            > */}
+            >
 				<div className="hero-slider-item bg-1">
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
-								<div className="hero-slider-text one">
-									<h2>Working in this industry made us strong.<br/> We were told to be stronger.<br/> But we came out to be strongest.</h2>
-									<p>-Mad Ox</p>
-                                     
-                                    {/* <div className="slider-btn">
-                                        <Link href="#">
-                                            <a className="default-btn">View More</a>
-                                        </Link>
-                                    </div> */}
-								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				{/* <div className="hero-slider-item bg-2">
+				<div className="hero-slider-item bg-2">
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
-								<div className="hero-slider-text two">
-									<h1>We Work Globally Brilliantly Done</h1>
-									<p>Vivi is a high-quality video production house!</p>
-		
-									<div className="slider-btn">
-                                        <Link href="#">
-                                            <a className="default-btn">View More</a>
-                                        </Link>
-                                    </div>
-								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="hero-slider-item bg-3">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="hero-slider-item bg-4">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="hero-slider-item bg-5">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="hero-slider-item bg-6">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* <div className="hero-slider-item bg-7">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
 							</div>
 						</div>
 					</div>
 				</div> */}
 
-				{/* <div className="hero-slider-item bg-3">
+				{/* <div className="hero-slider-item bg-8">
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
-								<div className="hero-slider-text three">
-									<h1>Introducing The Next Level Of Video Production</h1>
-									<p>Vivi is a high-quality video production house!</p>
-		
-									<div className="slider-btn">
-                                        <Link href="#">
-                                            <a className="default-btn">View More</a>
-                                        </Link>
-                                    </div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
 				</div> */}
-            {/* </OwlCarousel> : ''} */}
+				{/* <div className="hero-slider-item bg-9">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div> */}
+
+				<div className="hero-slider-item bg-10">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="hero-slider-item bg-11">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-12">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-13">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-14">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-15">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-16">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-17">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="hero-slider-item bg-18">
+					<div className="d-table">
+						<div className="d-table-cell">
+							<div className="container">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+            </OwlCarousel> : ''}
 
 			{/* Social Wrap */}
 			<div className="social-wrap">

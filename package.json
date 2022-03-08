@@ -1,7 +1,6 @@
 {
     "name": "vivi",
     "version": "1.5.0",
-    "description": "Vivi - React Next.js Video Production & Movie Template",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",

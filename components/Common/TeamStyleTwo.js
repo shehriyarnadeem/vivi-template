@@ -10,28 +10,28 @@ const TeamStyleTwo = () => {
 				</div>
 
 				<div className="row" style={{justifyContent:'space-between'}}>
-					<div className="col-lg-5 col-sm-6">
+					<div className="col-lg-6 col-sm-6">
 						<div className="single-team">
 							<div className="team-img">
-								<img src="/img/team/team1.jpeg" alt="Image" />
+								<img src="/img/team/team1.jpeg" alt="Image" className="team-picture-style" />
 							</div>
 							
 							<div className="team-content">
 								<h3>Rahul Aslam</h3>
-								<span>CEO</span>
+								<span>CEO (Director)</span>
 							</div>
 						</div>
 					</div>
 					
-					<div className="col-lg-5 col-sm-6">
+					<div className="col-lg-6 col-sm-6">
 						<div className="single-team">
 							<div className="team-img">
-								<img src="/img/team/team2.jpg" alt="Image" />
+								<img src="/img/team/team2.jpg" alt="Image" className="team-picture-style" />
 							</div>
 	
 							<div className="team-content">
 								<h3>Ahmed Shahid</h3>
-								<span>COO (Executive Line Producer) </span>
+								<span>COO (Executive Producer) </span>
 							</div>
 						</div>
 					</div>

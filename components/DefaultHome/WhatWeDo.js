@@ -58,24 +58,24 @@ const WhatWeDo = () => {
 						<div className="row">
 							<div className="col-lg-4 col-sm-6">
 								<div className="what-we-do-item">
-									<i className="flaticon-film-editing-1"></i>
-									<h3>Pre-Production</h3>
+									<img src="/img/pre_production.jpeg" className="pre-production-poster" />
+									<h3 style={{ marginTop:'10px'}}>Pre-Production</h3>
 									<p>Whatever happens before the director says the word “Action” is the most crucial element in the process of video production. This phase include everything from scouting locations to figuring out a budget. We at Mad Ox Productions acknowledge the importance of this phase therefore we provide our clients with utmost insight so that the two most valuable resources in film- making which is time and money can be managed efficiently.  </p>
 								</div>
 							</div>
 
 							<div className="col-lg-4 col-sm-6">
 								<div className="what-we-do-item">
-									<i className="flaticon-film-editing"></i>
-									<h3>Production</h3>
+								<img src="/img/production.jpeg" className="pre-production-poster" />
+									<h3 style={{ marginTop:'10px'}}>Production</h3>
 									<p>This is the phase where the camera starts rolling and the shooting begins. This process implements the vision that was set in the pre-production process, such as capturing all the necessary footage and providing necessary resources to stay on schedule. Mad Ox Productions ensures to provide the best production team out there so that the clients can see their ideas come to life.</p>
 								</div>
 							</div>
 
 							<div className="col-lg-4 col-sm-6">
 								<div className="what-we-do-item">
-									<i className="flaticon-advertising"></i>
-									<h3>Post-Production</h3>
+								 <img src="/img/post_production.jpeg" className="pre-production-poster" />
+									<h3 style={{ marginTop:'10px'}}>Post-Production</h3>
 									<p>Once the camera stops rolling the post production phase starts. This includes manipulating captured footage and adding all the sugar, spice and everything nice so that it can achieve the standard the client desires.</p>
 								</div>
 							</div>

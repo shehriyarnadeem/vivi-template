@@ -720,6 +720,15 @@ Hero Slider Area Style
           animation: 1s .1s fadeInUpBig both;
 }
 
+.hero-slider-area .owl-item.active .hero-slider-text {
+  overflow: hidden;
+}
+
+.hero-slider-area .owl-item.active .hero-slider-text.one h2 {
+  -webkit-animation: 1s .1s fadeInUpBig both;
+          animation: 1s .1s fadeInUpBig both;
+}
+
 .hero-slider-area .owl-item.active .hero-slider-text.one p {
   -webkit-animation: 2s .2s fadeInUpBig both;
           animation: 2s .2s fadeInUpBig both;
@@ -740,12 +749,32 @@ Hero Slider Area Style
           animation: 3s .3s fadeInLeft both;
 }
 
+.hero-slider-area .owl-item.active .hero-slider-text.two h2 {
+  -webkit-animation: 2s .2s fadeInLeft both;
+          animation: 2s .2s fadeInLeft both;
+}
+
+.hero-slider-area .owl-item.active .hero-slider-text.two p {
+  -webkit-animation: 3s .3s fadeInLeft both;
+          animation: 3s .3s fadeInLeft both;
+}
+
 .hero-slider-area .owl-item.active .hero-slider-text.two .slider-btn {
   -webkit-animation: 2s .2s fadeInUpBig both;
           animation: 2s .2s fadeInUpBig both;
 }
 
 .hero-slider-area .owl-item.active .hero-slider-text.three h1 {
+  -webkit-animation: 2s .2s fadeInDown both;
+          animation: 2s .2s fadeInDown both;
+}
+
+.hero-slider-area .owl-item.active .hero-slider-text.three p {
+  -webkit-animation: 2s .2s fadeInDown both;
+          animation: 2s .2s fadeInDown both;
+}
+
+.hero-slider-area .owl-item.active .hero-slider-text.three h2 {
   -webkit-animation: 2s .2s fadeInDown both;
           animation: 2s .2s fadeInDown both;
 }
@@ -939,28 +968,81 @@ Hero Slider Area Style
 }
 
 .hero-slider-item.bg-1 {
-  background-image: url(/img/main-slider/main-slider1.jpg);
+  background-image: url(/img/main-slider/posters/cadbury.jpg);
 }
 
 .hero-slider-item.bg-2 {
-  background-image: url(/img/main-slider/main-slider2.jpg);
+  background-image: url(/img/main-slider/posters/Dawlance.jpg);
 }
 
 .hero-slider-item.bg-3 {
-  background-image: url(/img/main-slider/main-slider3.jpg);
+  background-image: url(/img/main-slider/posters/glucos.jpg);
 }
 
 .hero-slider-item.bg-4 {
-  background-image: url(/img/main-slider/main-slider4.jpg);
+  background-image: url(/img/main-slider/posters/kia.jpg);
 }
 
 .hero-slider-item.bg-5 {
-  background-image: url(/img/main-slider/main-slider5.jpg);
+  background-image: url(/img/main-slider/posters/laaapata.jpg);
 }
 
 .hero-slider-item.bg-6 {
-  background-image: url(/img/main-slider/main-slider6.jpg);
+  background-image: url(/img/main-slider/posters/laal.jpg);
 }
+
+.hero-slider-item.bg-7 {
+  background-image: url(/img/main-slider/posters/lifebouysanitizer);
+}
+
+.hero-slider-item.bg-8 {
+  background-image: url(/img/main-slider/posters/lifebouysanitizer.jpg);
+}
+
+.hero-slider-item.bg-9 {
+  background-image: url(/img/main-slider/posters/mfoam.jpg);
+}
+
+.hero-slider-item.bg-10 {
+  background-image: url(/img/main-slider/posters/molty.jpg);
+}
+
+.hero-slider-item.bg-11 {
+  background-image: url(/img/main-slider/posters/peu.jpg);
+}
+
+.hero-slider-item.bg-12 {
+  background-image: url(/img/main-slider/posters/PONDS.jpg);
+}
+
+.hero-slider-item.bg-13 {
+  background-image: url(/img/main-slider/posters/pubg.jpg);
+}
+
+.hero-slider-item.bg-14 {
+  background-image: url(/img/main-slider/posters/Sang-e-Mah-1280x720.jpg);
+}
+
+.hero-slider-item.bg-15 {
+  background-image: url(/img/main-slider/posters/Sooper.jpg);
+}
+
+.hero-slider-item.bg-16 {
+  background-image: url(/img/main-slider/posters/surfexcel.jpg);
+}
+
+.hero-slider-item.bg-17 {
+  background-image: url(/img/main-slider/posters/vim.jpg);
+}
+
+.hero-slider-item.bg-18 {
+  background-image: url(/img/main-slider/posters/laal.jpg);
+}
+
+.hero-slider-item.bg-19 {
+  background-image: url(/img/main-slider/posters/whistlez.jpg);
+}
+
 
 .hero-slider-text {
   text-align: center;
@@ -1175,6 +1257,15 @@ What We Do Area Style
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
+
+.pre-production-poster {
+	height: 15em;
+    width: 28em;
+    object-fit: cover;
+    border: 1px solid #d3c0c0;
+    border-radius: 6px;
+}
+
 
 /*
 Testimonial Area Style
@@ -1909,7 +2000,7 @@ Team Area Style
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000));
   background-image: linear-gradient(transparent, #000000);
@@ -1965,6 +2056,12 @@ Team Area Style
 
 .single-team:hover .team-img .social {
   opacity: 1;
+}
+.team-picture-style {
+    height: 23em;
+    border-radius: 100%;
+    border: 3px solid lightsteelblue;
+    object-fit: cover;
 }
 
 /*
