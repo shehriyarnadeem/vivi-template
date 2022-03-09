@@ -7,7 +7,7 @@ const options = {
     loop:true,
     margin:0,
     nav:true,
-    mouseDrag: false,
+    mouseDrag: true,
     items:1,
     dots: false,
     autoplay: true,
@@ -80,7 +80,7 @@ const HeroSlider = () => {
             </OwlCarousel> : ''}
 
 			{/* Social Wrap */}
-			<div className="social-wrap">
+			{/* <div className="social-wrap">
 				<ul>
 					<li className="follow-us">
 						Follow Us:
@@ -101,7 +101,7 @@ const HeroSlider = () => {
 						</a>
 					</li>
 				</ul>
-			</div>
+			</div> */}
 		</div>
     )
 }

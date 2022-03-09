@@ -816,9 +816,8 @@ Hero Slider Area Style
 .hero-slider-area .owl-theme .owl-nav [class*=owl-].owl-prev::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 50%;
   left: 48px;
+  top: 50%;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
   -webkit-transition: all 0.5s;
@@ -827,7 +826,7 @@ Hero Slider Area Style
   background-position: left;
   background-repeat: no-repeat;
   width: 54px;
-  height: 100px;
+  height: 80px;
 }
 
 .hero-slider-area .owl-theme .owl-nav [class*=owl-].owl-prev::after {
@@ -842,7 +841,7 @@ Hero Slider Area Style
   background-image: url(/img/main-slider/prev-2.png);
   background-position: left;
   background-repeat: no-repeat;
-  width: 54px;
+  width: 20px;
   height: 100px;
   opacity: 0;
 }
@@ -867,7 +866,7 @@ Hero Slider Area Style
   content: "";
   position: absolute;
   right: 48px;
-  top: 5%;
+  top: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: all 0.5s;
@@ -876,15 +875,15 @@ Hero Slider Area Style
   background-position: right;
   background-repeat: no-repeat;
   width: 54px;
-  height: 100px;
-  transform: rotate(180deg);
+  height: 80px;
+  transform: rotate(180deg)
 }
 
 .hero-slider-area .owl-theme .owl-nav [class*=owl-].owl-next::after {
   content: "";
   position: absolute;
   right: 0;
-  top: 0;
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: all 0.5s;
@@ -892,7 +891,7 @@ Hero Slider Area Style
   /* background-image: url(/img/main-slider/next-2.png); */
   background-position: right;
   background-repeat: no-repeat;
-  width: 54px;
+  width: 20px;
   height: 100px;
   opacity: 0;
 }
