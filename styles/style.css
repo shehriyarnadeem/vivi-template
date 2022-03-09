@@ -825,7 +825,7 @@ Hero Slider Area Style
   background-image: url(/img/main-slider/prev-1.png);
   background-position: left;
   background-repeat: no-repeat;
-  width: 20px;
+  width: 54px;
   height: 100px;
 }
 
@@ -841,7 +841,7 @@ Hero Slider Area Style
   background-image: url(/img/main-slider/prev-2.png);
   background-position: left;
   background-repeat: no-repeat;
-  width: 20px;
+  width: 54px;
   height: 100px;
   opacity: 0;
 }
@@ -866,7 +866,7 @@ Hero Slider Area Style
   content: "";
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 5%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: all 0.5s;
@@ -874,23 +874,24 @@ Hero Slider Area Style
   background-image: url(/img/main-slider/next-1.png);
   background-position: right;
   background-repeat: no-repeat;
-  width: 20px;
+  width: 54px;
   height: 100px;
+  transform: rotate(180deg);
 }
 
 .hero-slider-area .owl-theme .owl-nav [class*=owl-].owl-next::after {
   content: "";
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  background-image: url(/img/main-slider/next-2.png);
+  /* background-image: url(/img/main-slider/next-2.png); */
   background-position: right;
   background-repeat: no-repeat;
-  width: 20px;
+  width: 54px;
   height: 100px;
   opacity: 0;
 }

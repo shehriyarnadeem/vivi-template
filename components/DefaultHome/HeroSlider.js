@@ -6,13 +6,13 @@ import Link from 'next/link';
 const options = {
     loop:true,
     margin:0,
-    // nav:true,
+    nav:true,
     mouseDrag: false,
     items:1,
-    dots: true,
-    // autoplay: true,
-    smartSpeed:500,
-    autoplayHoverPause: true,
+    dots: false,
+    autoplay: true,
+    smartSpeed:1000,
+    autoplayHoverPause: false,
     navText: [
         "<i class='bx bx-chevron-left'></i>",
         "<i class='bx bx-chevron-right'></i>",
@@ -33,11 +33,27 @@ const HeroSlider = () => {
                 {...options}
             >
 				<div className="item">
-					<img src="/img/main-slider/posters/cadbury.jpg" />
+					<img src="/img/main-slider/posters/1.jpg" />
 				</div>
 
 				<div className="item">
-				<img src="/img/main-slider/posters/Dawlance.jpg" />
+				<img src="/img/main-slider/posters/2.jpg" />
+				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/3.jpg" />
+				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/4.jpg" />
+				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/5.jpg" />
+				</div>
+
+				<div className="item">
+				<img src="/img/main-slider/posters/6.jpg" />
 				</div>
 
 				<div className="item">
@@ -45,67 +61,21 @@ const HeroSlider = () => {
 				</div>
 
 				<div className="item">
-				<img src="/img/main-slider/posters/kia.jpg" />
-				</div>
-
-				<div className="item">
-				<img src="/img/main-slider/posters/laaapata.jpg" />
-				</div>
-
-				<div className="item">
-				<img src="/img/main-slider/posters/laal.jpg" />
-				</div>
-
-				<div className="item">
-				<img src="/img/main-slider/posters/Lifebuoy.jpg" />
-				</div>
-
-				<div className="item">
 				<img src="/img/main-slider/posters/lifebuoysanitizer.jpg" />
 				</div>
 
 				<div className="item">
-				<img src="/img/main-slider/posters/mfoam.jpg" />
-				</div>
-				<div className="item">
-				<img src="/img/main-slider/posters/molty.jpg" />
-				</div>
-				<div className="item">
-				<img src="/img/main-slider/posters/peu.jpg" />
-				</div>
-				<div className="item">
-				<img src="/img/main-slider/posters/PONDS.jpg" />
-				</div>
-				<div className="item">
 				<img src="/img/main-slider/posters/pubg.jpg" />
 				</div>
 				<div className="item">
-				<img src="/img/main-slider/posters/Sang-e-Mah-1280x720.jpg" />
-				</div>
-
-
-				<div className="item">
-				<img src="/img/main-slider/posters/Sooper.jpg" />
-				</div>
-
-				<div className="item">
-				<img src="/img/main-slider/posters/surf.jpg" />
-				</div>
-
-				<div className="item">
 				<img src="/img/main-slider/posters/surfexcel.jpg" />
 				</div>
-
 				<div className="item">
 				<img src="/img/main-slider/posters/vim.jpg" />
 				</div>
 				<div className="item">
 				<img src="/img/main-slider/posters/whistlez.jpg" />
 				</div>
-				
-
-				
-				
 
             </OwlCarousel> : ''}
 

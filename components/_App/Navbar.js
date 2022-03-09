@@ -62,7 +62,7 @@ const Navbar = () => {
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">
-                                <ul className="navbar-nav m-auto">
+                                <ul className="navbar-nav m-auto" style={{display:'flex', justifyContent:'flex-end', width:'100%'}}>
                                     <li className="nav-item">
                                         <Link href="/" activeClassName="active">
                                             <a onClick={toggleNavbar} className="nav-link">

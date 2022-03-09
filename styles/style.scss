@@ -710,7 +710,7 @@ Hero Slider Area Style
 						background-image: url(/img/main-slider/prev-1.png);
 						background-position: left;
 						background-repeat: no-repeat;
-						width: 20px;
+						width: 54px;
     					height: 100px;
 					}
                     &::after {
@@ -723,7 +723,7 @@ Hero Slider Area Style
 						background-image: url(/img/main-slider/prev-2.png);
 						background-position: left;
 						background-repeat: no-repeat;
-						width: 20px;
+						width: 54px;
 						height: 100px;
 						opacity: 0;
 					}
@@ -743,14 +743,15 @@ Hero Slider Area Style
                         content: "";
                         position: absolute;
                         right: 0;
-                        top: 50%;
+                        top: 0;
                         transform: translateY(-50%);
 						transition: $transition;
 						background-image: url(/img/main-slider/next-1.png);
 						background-position: right;
 						background-repeat: no-repeat;
-						width: 20px;
-    					height: 100px;
+						width: 54px;
+  height: 100px;
+  transform: rotate(180deg);
 					}
                     &::after {
                         content: "";
@@ -759,7 +760,7 @@ Hero Slider Area Style
                         top: 50%;
                         transform: translateY(-50%);
 						transition: $transition;
-						background-image: url(/img/main-slider/next-2.png);
+						// background-image: url(/img/main-slider/next-2.png);
 						background-position: right;
 						background-repeat: no-repeat;
 						width: 20px;

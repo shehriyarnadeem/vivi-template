@@ -18,7 +18,7 @@ const TeamStyleTwo = () => {
 							
 							<div className="team-content">
 								<h3>Rahul Aslam</h3>
-								<span>CEO (Director)</span>
+								<span>CEO (Director & Executive Producer)</span>
 							</div>
 						</div>
 					</div>

@@ -57,7 +57,7 @@ const ContactForm = () => {
 					<div className="col-lg-4 col-md-5">
 						<div className="contact-info">
 							<h3>Get In Touch</h3>
-							<p>Monday - Saturday</p>
+							<p>Monday - Saturday (12pm to 8pm)</p>
 
 							<ul>
 								<li>
@@ -78,7 +78,7 @@ const ContactForm = () => {
 								<li>
 									<i className="flaticon-pin"></i>
 									Address:
-									<span>14/C, Lane 8, Seher Commercial, Phase 7<br /> Karachi, Pakistan</span>
+									<span>14/C Lane 8 Seher Commercial Phase 7, D.H.A<br /> Karachi Pakistan, 75500</span>
 								</li>
 							</ul>
 

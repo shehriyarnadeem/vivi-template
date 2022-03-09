@@ -6,10 +6,10 @@ const WhatWeDo = () => {
         <div className="what-we-do-area pt-100 pb-70">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-6">
+					<div className="col-lg-7">
 						<div className="what-we-do-content"> 
 							<span>What We Do</span>
-							<h2>Video Solution Every Stage</h2>
+							<h2>Video Solution At Every Stage</h2>
 							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>  */}
 
 							{/* <div className="brand-wrap">
