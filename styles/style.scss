@@ -703,8 +703,9 @@ Hero Slider Area Style
                     &::before {
                         content: "";
                         position: absolute;
-                        left: 0;
+                        left: 48px;
                         top: 50%;
+					
                         transform: translateY(-50px);
 						transition: $transition;
 						background-image: url(/img/main-slider/prev-1.png);
@@ -750,6 +751,7 @@ Hero Slider Area Style
 						background-position: right;
 						background-repeat: no-repeat;
 						width: 54px;
+						left:48px;
   height: 100px;
   transform: rotate(180deg);
 					}

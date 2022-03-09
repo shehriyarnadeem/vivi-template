@@ -818,6 +818,7 @@ Hero Slider Area Style
   position: absolute;
   left: 0;
   top: 50%;
+  left: 48px;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
   -webkit-transition: all 0.5s;
@@ -865,7 +866,7 @@ Hero Slider Area Style
 .hero-slider-area .owl-theme .owl-nav [class*=owl-].owl-next::before {
   content: "";
   position: absolute;
-  right: 0;
+  right: 48px;
   top: 5%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
