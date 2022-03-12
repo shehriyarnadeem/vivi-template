@@ -797,7 +797,7 @@ Hero Slider Area Style
 
 .hero-slider-area .owl-theme .owl-nav [class*=owl-] {
   position: absolute;
-  top: 50%;
+  top: 58%;
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
   margin: 0;

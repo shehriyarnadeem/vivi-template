@@ -60,7 +60,7 @@ const WhatWeDo = () => {
 								<div className="what-we-do-item">
 									<img src="/img/pre_production.jpeg" className="pre-production-poster" />
 									<h3 style={{ marginTop:'10px'}}>Pre-Production</h3>
-									<p>Whatever happens before the director says the word “Action” is the most crucial element in the process of video production. This phase include everything from scouting locations to figuring out a budget. We at Mad Ox Productions acknowledge the importance of this phase therefore we provide our clients with utmost insight so that the two most valuable resources in film- making which is time and money can be managed efficiently.  </p>
+									<p>Whatever happens before the director says the word “Action” is the most crucial element in the process of video production. This phase includes everything from scouting locations to figuring out a budget. We at Mad Ox Productions acknowledge the importance of this phase therefore we provide our clients with utmost insight so that the two most valuable resources in film- making which is time and money can be managed efficiently.</p>
 								</div>
 							</div>
 
@@ -68,7 +68,7 @@ const WhatWeDo = () => {
 								<div className="what-we-do-item">
 								<img src="/img/production.jpeg" className="pre-production-poster" />
 									<h3 style={{ marginTop:'10px'}}>Production</h3>
-									<p>This is the phase where the camera starts rolling and the shooting begins. This process implements the vision that was set in the pre-production process, such as capturing all the necessary footage and providing necessary resources to stay on schedule. Mad Ox Productions ensures to provide the best production team out there so that the clients can see their ideas come to life.</p>
+									<p>This is the phase where the camera starts rolling and the shooting begins. This process implements the vision that was set in the pre-production process, such as capturing all the necessary footage and providing necessary resources to stay on schedule. Mad Ox Productions ensures that customers have access to the greatest production crew available so that their visions can be implemented. Our motto is simple you imagine we deliver.</p>
 								</div>
 							</div>
 
@@ -76,7 +76,7 @@ const WhatWeDo = () => {
 								<div className="what-we-do-item">
 								 <img src="/img/post_production.jpeg" className="pre-production-poster" />
 									<h3 style={{ marginTop:'10px'}}>Post-Production</h3>
-									<p>Once the camera stops rolling the post production phase starts. This includes manipulating captured footage and adding all the sugar, spice and everything nice so that it can achieve the standard the client desires.</p>
+									<p>Once the camera stops rolling the post production phase starts. This includes manipulating captured footage and adding all the sugar, spice and everything nice so that it can achieve the standard the client desires. However, the Post-Production process will differ based on the size of the production, its budget, and which industry you're working in (television or cinema). Every aspect of post-production is essential for the overall film.</p>
 								</div>
 							</div>
 
