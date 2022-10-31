@@ -13,19 +13,6 @@ const TeamStyleTwo = () => {
 					<div className="col-lg-6 col-sm-6">
 						<div className="single-team">
 							<div className="team-img">
-								<img src="/img/team/team1.jpeg" alt="Image" className="team-picture-style" />
-							</div>
-							
-							<div className="team-content">
-								<h3>Rahul Aslam</h3>
-								<span>CEO (Director & Executive Producer)</span>
-							</div>
-						</div>
-					</div>
-					
-					<div className="col-lg-6 col-sm-6">
-						<div className="single-team">
-							<div className="team-img">
 								<img src="/img/team/team2.jpg" alt="Image" className="team-picture-style" />
 							</div>
 	
