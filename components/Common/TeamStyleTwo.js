@@ -6,11 +6,11 @@ const TeamStyleTwo = () => {
 			<div className="container">
 				<div className="section-title">
 					{/* <span>FilmMakers</span> */}
-					<h2>Meet The Team</h2>
+					<h2>Meet Our CEO</h2>
 				</div>
 
 				<div className="row" style={{justifyContent:'space-between'}}>
-					<div className="col-lg-6 col-sm-6">
+					<div className="col-lg-12 col-sm-12">
 						<div className="single-team">
 							<div className="team-img">
 								<img src="/img/team/team2.jpg" alt="Image" className="team-picture-style" />
@@ -18,7 +18,7 @@ const TeamStyleTwo = () => {
 	
 							<div className="team-content">
 								<h3>Ahmed Shahid</h3>
-								<span>COO (Executive Producer) </span>
+								<span>CEO </span>
 							</div>
 						</div>
 					</div>

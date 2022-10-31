@@ -5,6 +5,7 @@ import HeroSlider from '../components/DefaultHome/HeroSlider'
 import About from '../components/DefaultHome/About'
 import VideoCreated from '../components/DefaultHome/VideoCreated'
 import WhatWeDo from '../components/DefaultHome/WhatWeDo'
+import AboutContent from '../components/About/AboutContent';
 import Testimonials from '../components/Common/Testimonials'
 import AwardWinningMovies from '../components/Common/AwardWinningMovies'
 import GetInTouch from '../components/Common/GetInTouch'
@@ -23,13 +24,11 @@ const Index = () => {
             <Navbar />
 
             <HeroSlider />
+            <AboutContent />
 
             {/* <About /> */}
 
             {/* <VideoCreated /> */}
-
-            <WhatWeDo />
-
             {/* <Testimonials /> */}
 
             {/* <AwardWinningMovies /> */}
@@ -41,6 +40,7 @@ const Index = () => {
             {/* <ExclusiveShop products={products.slice(0, 4)} /> */}
 
             <TeamStyleTwo />
+            <WhatWeDo />
 
             {/* <Partners /> */}
 

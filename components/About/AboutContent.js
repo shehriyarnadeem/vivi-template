@@ -7,14 +7,17 @@ const AboutContent = () => {
 				<div className="row align-items-center">
 					<div className="col-lg-6">
 						<div className="about-content">
-							<span>vivi Bio</span>
-							<h2>We Are A Creative Video Production Company</h2>
+							<span>Madox Bio</span>
 
 							<h3>Who We Are</h3>
-							<p>Video production work with producing video content. It is the analogical of film making, but the images are digitally recorded instead of film stock. There are three levels of video production: production, pre-production and post-production.</p>
+							<p>Mad Ox handles all of your filming requirements both within and outside of Karachi.
+							   We have slightly qualified and experienced crew that can support your film productoins,
+							   give you the most up-to-date equipment, obtain shooting permits, and logistical assistance
+							   without any issues. We adapt quickly to last-minute changes and position ourselves in accordance with your requirements.
+							   As a result, we are available to assist you whenever you require a motivated team, high-quality equipment,
+							   logistics, shooting permissions, technical advice, or just about any other need that falls under the purview of line producing.				
 
-							<h3 className="mt-30">Who We Work</h3>
-							<p>Video production work with producing video content. It is the analogical of film making, but the images are digitally recorded instead of film stock. There are three levels of video production.</p>
+							</p>
 						</div>
 					</div>
 
